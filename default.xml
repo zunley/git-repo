@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 定义远程地址前缀，假设你的代码都在 GitHub 的 user 下 -->
+  <remote name="origin" fetch="git@github.com:zunley/" />
+
+  <!-- 默认配置：所有项目都从 origin 拉取，默认分支为 main -->
+  <default remote="origin" revision="main" sync-j="4" />
+
+  <!-- 1. 笔记仓库 -->
+  <!-- path: 本地存放路径, name: git 仓库名 -->
+  <project path="notebook" name="notebook" />
+
+  <!-- 2. 代码类 -->
+  <project path="project/6.s081" name="6.s081" revision="master" />
+  
+  <!-- 3. 配置文件 -->
+  <project path="config/dotfiles" name="dotfiles" />
+  <project path="config/services" name="services" />
+
+</manifest>
