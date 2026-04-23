@@ -12,6 +12,7 @@
 
   <!-- 2. 代码类 -->
   <project path="project/6.s081" name="6.s081" revision="master" />
+  <project path="project/cs61a" name="cs61a" />
   
   <!-- 3. 配置文件 -->
   <project path="config/dotfiles" name="dotfiles" />
